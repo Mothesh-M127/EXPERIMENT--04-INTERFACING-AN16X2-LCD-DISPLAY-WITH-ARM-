@@ -192,7 +192,7 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd,0,1);
-  Lcd_string(&lcd, "balaji K");
+  Lcd_string(&lcd, "MOTHESH M");
   while (1)
   {
 	  for (int x=1;x<=200;x++)
@@ -208,7 +208,7 @@ int main(void)
 
 
 ## Output screen shots of proteus  :
- ![exp4out](https://github.com/balaji-21005757/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94372294/d64151a1-4a0a-4afc-8ab9-f016ee02236a)
+![WhatsApp Image 2024-05-08 at 15 23 02_e16e314c](https://github.com/Mothesh-M127/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/94170892/276a925e-2e88-45b7-a986-f5b32bec7682)
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
